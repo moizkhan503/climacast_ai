@@ -1,4 +1,4 @@
-const GROQ_API_KEY = "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"
+const GROQ_API_KEY = process.env.NEXT_PUBLIC_GROQ_API_KEY
 
 const SYSTEM_PROMPT = `You are an advanced meteorological AI specialist. Analyze the provided document content and generate detailed future weather pattern predictions in paragraph format.
 
